@@ -1,0 +1,22 @@
+Kurzbeschreibung Spielablauf
+Bei Monopoly müssen die Spieler versuchen sich gegenseitig in den Bankrott zu treiben. Gewinner ist der Spieler, der als letztes Vermögen besitzt. 
+
+Ein Spielzug beginnt mit dem Bewegen der Figur. Dabei werden zwei sechsseitige Würfel geworfen, die geworfene Anzahl bestimmt die Felder, die die Figur ziehen darf. 
+
+Danach darf der Spieler je nach Art des erreichten Feldes bestimmte Aktionen ausführen:
+Ausführen von Karten-Aktionen,
+An- und Verkäufe von Grundstücken,
+Miete an Mitspieler zahlen,
+ein eigenes Grundstück durch Häuser oder Hotel aufwerten oder
+Steuern bezahlen, Einnahmen erhalten und andere Sonderaktionen.
+
+Hat der Spieler ein Pasch gewürfelt(Beide Würfel zeigen die gleiche Zahl) dann darf der Spieler noch einen Spielzug ausführen. Würfelt ein Spieler jedoch drei mal hintereinander ein Pasch, so muss er ins Gefängnis.
+
+Wenn ein Spieler im Gefängnis sitzt, darf er seine Figur nicht bewegen, kann aber weiterhin Häuser bauen, Grundstücke kaufen oder verkaufen und Miete kassieren. Um aus dem Gefängnis zu gelangen muss man einen Pasch würfeln, hat er nach 3 Zügen es nicht hinbekommen ein Pasch zu würfeln, so kann er sich freikaufen.
+
+"Hürden" bei der Bildverarbeitung
+Mögliche Hürden wären die zuordnung der Karten zu den jeweiligen Spielern bzw. der Figur zu den Spielern.
+Beim klassischen Monopoly haben die Figuren alle die selbe Farbe, wodurch die Unterscheidung eventuell.
+
+Schwierigkeit der Spiellogik
+Einfach, aber viel.
