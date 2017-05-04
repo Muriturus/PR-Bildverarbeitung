@@ -1,0 +1,76 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{relsize}
+\usepackage{ngerman}
+\usepackage{enumitem}
+\usepackage{siunitx}
+\setlength\parindent{0pt}
+\setcounter{secnumdepth}{0}
+
+\begin{document}
+
+\noindent
+\large\textbf{Softwaretechnik SoSe 17} \\
+\normalsize Prof. Dr. Leonie Dreschler-Fischer \hfill Stephanie Bramlage 6824289\\ 
+\normalsize Benjamin Seppke \hfill Willy Kha 6824378\\
+David Mosteller	\hfill Isabella Tran 6807821
+
+\section{Grobentwurf - Junior Labyrinth}
+\subsection{Spielablauf}
+Das Verrückte Labyrinth ist ein rundenbasiertes Brettspiel für bis zu 4 Spieler.
+Am Anfang des Spiels werden 24 Spielkarten gleichmäßig an alle Spieler verteilt.
+Diese Karten bewahren die Spieler in einem Stapel auf.
+Auf den Spielkarten sind Objekte zu sehen, die auch auf dem Spielbrett abgedruckt sind.
+Ziel ist es nun die Figur auf das Feld zu bekommen, auf dem das Motiv der obersten Karte des eigenen Stapels zu sehen ist. Hat man das Ziel erreicht, so zeigt man die Karte vor und darf sich der nächsten Karte widmen. Hat ein Spieler seinen ganzen Stapel abgebaut und seine Figur zurück zum Startpunkt bewegt, so gewinnt er. \\
+
+Das Spielbrett besteht aus sogenannten „Gängekarten“ von denen jede zweite Reihe und Spalte verschoben werden kann. \\
+
+Ein Spielzug besteht aus dem Verschieben der „Gängekarten“ und der Bewegung der eigenen Figur. \\
+
+Beim Verschieben der Gängekarten gilt, dass Figuren, die durch das Verschieben der Gängekarten aus dem Spielbrett geschoben wurden auf der anderen Seite der Reihe / Spalte erscheinen. Dabei ist zu beachten, dass dies nicht als Zug gilt! Dadurch können also keine Karten des Spielers vorgezeigt werden, es sei denn es war ihr eigener Zug.
+In der zweiten Phase des Zuges lässt sich die eigene Figur bewegen. Dabei kann die Figur unendlich viele Felder ziehen.
+Am Ende des Zuges kann die oberste Karte des Stapels vorgezeigt werden, wenn die Figur das Objekt auf dem Spielbrett erreicht hat.
+
+\subsection{Leistungsumfang}
+\begin{itemize}
+\item Der Spielstand soll von einem Foto abgelesen werden können.
+\item Das Spiel soll mit dem abgelesenen Spielstand digital weitergespielt werden können
+\item Das Spiel soll vollständig beendet werden können.
+	\begin{itemize}
+	\item Die Gängekarten sind an den möglichen Stellen einschiebar.
+	\item Die Spielfigur kann nach den Regeln bewegt werden
+	\item Das Zielobjekt ist erreichbar und die Punkte werden automatisch gezählt
+	\item Das Spiel erkennt das Ende einer Partie und kann den Gewinner verkünden
+	\end{itemize}
+\end{itemize}
+
+
+\subsection{Rahmenbedingungen}
+\begin{itemize}
+\item Die Beleuchtung des Spielbretts darf nicht zu stark sein(da Spiegelung; am besten seitliche Belichtung)
+\item Das Spielbrett sollte komplett abgebildet sein
+\item Das Spielbrett sollte möglichst parallel zu Rändern liegen
+\item Die Spielfiguren müssen aus „Das Verrückten Labyrinth“ stammen
+\item Das Spielbrett muss von oben abfotografiert werden
+\item Das gelbe Startfeld muss immer oben links angeordnet sein
+\item Die Karten müssen „ordentlich“ im Gitter angeordnet sein
+\item Die zuletzt rausgeschobene Karte muss liegen bleiben und das Dreieck verdecken
+\item Die Spielsteine müssen an einem Ausgangsweg stehen (dürfen die Bilder nicht verdecken)
+	\begin{itemize}
+	\item Bestenfalls: verdeckt nicht ganz den Übergang zur nächsten Karte
+	\end{itemize}
+
+\item Die Punkte werden auf einem separaten Bild festgehalten
+	\begin{itemize}
+	\item Auf der linken Hälfte des Bildes werden die noch offenen Ziele festgehalten und auf der rechten Seite die bereits erreichten Ziele der jeweiligen Spieler
+	\item Die Punktekennzeichner (die Spielfiguren vom Junior Labyrinth) sind in der Reihenfolge gelb, grün, blau, rot angeordnet
+	\item Unter den jeweiligen Punktekennzeichnern werden die jeweiligen Punkte angeordnet
+	\end{itemize}
+\item Zu den offenen Zielen:
+	\begin{itemize}
+	\item An oberster Stelle:  liegt aufgedeckt das zurzeit 	erreichende Ziel
+	\item Darunter (verdeckt) in zwei Spalten die weiteren zu erreichenden Ziele
+	\end{itemize}
+	\end{itemize}
+
+\end{document}
